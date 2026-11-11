@@ -1,0 +1,73 @@
+# ---- Personal configuration & lists (NEVER commit) ----
+config.py
+.env
+*.env
+folders.txt
+folders*.txt
+!folders.example.txt
+
+# ---- Secrets ----
+*.key
+*.pem
+secrets*
+
+# ---- digiKam databases, face data, thumbnails ----
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+digikam*.db
+recognition.db
+thumbnails-digikam.db
+similarity.db
+FaceReferences/
+dnnface/
+.picasa.ini
+.digikam_*
+
+# ---- Logs, backups, temp previews ----
+logs/
+backups/
+*.log
+*_log.txt
+_previews/
+_blur_review_previews/
+_pending_review_previews/
+
+# ---- Third-party binaries (download them yourself) ----
+exiftool.exe
+exiftool(-k).exe
+exiftool_files/
+Image-ExifTool-*/
+
+# ---- Personal media (this repo is code only) ----
+*.jpg
+*.jpeg
+*.png
+*.heic
+*.tif
+*.tiff
+*.gif
+*.mp4
+*.mov
+*.m4v
+*.avi
+*.mkv
+*.wmv
+*.3gp
+*.webm
+!docs/img/*
+
+# ---- Python / editor / OS ----
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+.idea/
+.vscode/
+Thumbs.db
+.DS_Store
+desktop.ini

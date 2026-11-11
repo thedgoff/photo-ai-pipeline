@@ -1,0 +1,6 @@
+# One folder per line. Relative names are resolved under PICTURES_ROOT.
+# Blank lines and lines starting with # are ignored.
+# Copy this file to folders.txt (which is gitignored) and edit it.
+Example Park - 2024-06-15
+Beach Trip - 2023-08-01
+Pets
